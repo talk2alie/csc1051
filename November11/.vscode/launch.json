@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IntroductionToMethods",
+            "request": "launch",
+            "mainClass": "IntroductionToMethods",
+            "projectName": "November11_66959ab9"
+        }
+    ]
+}
