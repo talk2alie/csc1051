@@ -84,5 +84,6 @@ public class Battleship {
         System.out.println("Congrats!! You sank my ship after " + guesses + " guesses");
 
         // Create bottom padding
+        System.out.println();
     }
 }
