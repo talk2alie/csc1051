@@ -2,16 +2,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Average",
-            "request": "launch",
-            "mainClass": "Average",
-            "projectName": "readingfiles_9b7c6972"
-        },
-        {
-            "type": "java",
             "name": "CodeLens (Launch) - ReadingUserInputFromFile",
             "request": "launch",
-            "mainClass": "ReadingUserInputFromFile"
+            "mainClass": "ReadingUserInputFromFile",
+            "projectName": "readingfiles_9b7c6972"
         }
     ]
 }

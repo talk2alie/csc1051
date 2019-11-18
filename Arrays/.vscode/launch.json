@@ -1,11 +1,44 @@
 {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - InvalidIndex",
+            "name": "CodeLens (Launch) - ParamsArray",
             "request": "launch",
-            "mainClass": "InvalidIndex",
-            "projectName": "Arrays_db35dca1"
+            "mainClass": "ParamsArray"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReturningArraysFromMethods",
+            "request": "launch",
+            "mainClass": "ReturningArraysFromMethods"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArraysArePassedByValue",
+            "request": "launch",
+            "mainClass": "ArraysArePassedByValue"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArraysAsArgument",
+            "request": "launch",
+            "mainClass": "ArraysAsArgument"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Introduction",
+            "request": "launch",
+            "mainClass": "Introduction"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
         }
     ]
 }

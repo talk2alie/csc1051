@@ -1,47 +1,38 @@
 // 1. Import the Scanner class from the java.util package
 import java.util.Scanner;
-import java.io.*;
+// 2. Import the File and FileNotFoundException classes from the java.io package
+import java.io.File;
+import java.io.FileNotFoundException;
 
 /**
- * This application reads the boiling points from a file 
- * and displays them on screen
+ * Reads user input from a file and display the content to the screen
  */
 public class ReadingUserInputFromFile {
 
+    // Note the throws expression in the main method's header
     public static void main(String[] args) throws FileNotFoundException {
-        // Add top padding
+        // 3. Specify the name of the file containing the user input
+        final String fileName = "boilingpoints.txt"; // Note the file name matches our file
 
-        // 2. Create a file object for the file that has the user input
-        final String filePath = "boilingpoints.txt";
-        File file = new File(filePath);
+        // 4. Instantiate a File object and pass the fileName to the constructor
+        File file = new File(fileName);
 
-        
+        // 5. Instantiate a Scanner object passing the file object instead of our
+        //    our regular System.in for reading keyboard input
         Scanner fileReader = new Scanner(file);
-
-        // 3. All you do now is loop through each line in the file as long
-        //    as the scanner object's hasNextLine method returns true 
+        
+        // 6. Repeatedly read a line from the file until the Scanner object's 
+        //    hasNextLine method returns false
         while (fileReader.hasNextLine()) {
-            // Just like when reading the user input from a keyboard,
-            // the nextLine method will return the current line in the file.
-            // All you will do is read the line and store or use the value
-            String currentLine = fileReader.nextLine().trim();
+            // Read a line from the file and move the scanner to the beginning of the next line
+            String currentLine = fileReader.nextLine();
 
-            // Since you know there is a double on each line in the file,
-            // use the parseDouble method of the Double wrapper class to 
-            // convert the line to an actual double value of the boiling point 
-            double boilingPoint = Double.parseDouble(currentLine);
-
-            // Finally, print the value
-            System.out.println(boilingPoint);
+            // Display the line to the screen
+            System.out.println("Line from file: " + currentLine);
         }
 
-        // 4. Close the scanner. This is required to reclaim system resources
-        // FYI, if you leave this out in a quiz, you will lose points
+        // 7. Close the scanner to avoid memory leak.
+        //    Note, if you left this step out in a quiz, you will lose points
         fileReader.close();
-
-        // Add bottom padding
-        System.out.println();
-    }   
+    }
 }
-
-
