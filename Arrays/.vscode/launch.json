@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InvalidIndex",
+            "request": "launch",
+            "mainClass": "InvalidIndex",
+            "projectName": "Arrays_db35dca1"
+        }
+    ]
+}

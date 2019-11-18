@@ -7,7 +7,7 @@ public class Introduction {
         
         double[] boilingPoints;
 
-        System.out.println(boilingPoint);
+        //System.out.println(boilingPoint);
 
     }
 }
