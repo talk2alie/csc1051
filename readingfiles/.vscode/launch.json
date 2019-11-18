@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReadingUserInputFromFile",
+            "request": "launch",
+            "mainClass": "ReadingUserInputFromFile",
+            "projectName": "readingfiles_9b7c6972"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Question4",
+            "request": "launch",
+            "mainClass": "Question4",
+            "projectName": "Quiz5_5a899c39"
+        }
+    ]
+}
