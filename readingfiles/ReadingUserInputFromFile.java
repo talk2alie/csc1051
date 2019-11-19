@@ -20,7 +20,7 @@ public class ReadingUserInputFromFile {
         // 5. Instantiate a Scanner object passing the file object instead of our
         //    our regular System.in for reading keyboard input
         Scanner fileReader = new Scanner(file);
-        
+
         // 6. Repeatedly read a line from the file until the Scanner object's 
         //    hasNextLine method returns false
         while (fileReader.hasNextLine()) {
