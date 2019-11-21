@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WritingParameterAcceptingVoidMethodExample",
+            "request": "launch",
+            "mainClass": "WritingParameterAcceptingVoidMethodExample",
+            "projectName": "November13_66959abb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WritingValueReturningMethodExample",
+            "request": "launch",
+            "mainClass": "WritingValueReturningMethodExample"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WritingVoidMethodExample",
+            "request": "launch",
+            "mainClass": "WritingVoidMethodExample"
+        }
+    ]
+}
