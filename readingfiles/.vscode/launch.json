@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Grades",
+            "request": "launch",
+            "mainClass": "Grades",
+            "projectName": "readingfiles_9b7c6972"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Students",
+            "request": "launch",
+            "mainClass": "Students",
+            "projectName": "readingfiles_9b7c6972"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WritingToFile",
+            "request": "launch",
+            "mainClass": "WritingToFile",
+            "projectName": "readingfiles_9b7c6972"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReadingUserInputFromFile",
             "request": "launch",
             "mainClass": "ReadingUserInputFromFile",
