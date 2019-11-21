@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PassingAndReturningArrays",
+            "request": "launch",
+            "mainClass": "PassingAndReturningArrays",
+            "projectName": "November20_66959ad7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListingArrayElements",
+            "request": "launch",
+            "mainClass": "ListingArrayElements",
+            "projectName": "November20_66959ad7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GetAndModifyArrayValues",
+            "request": "launch",
+            "mainClass": "GetAndModifyArrayValues",
+            "projectName": "November20_66959ad7"
+        }
+    ]
+}
