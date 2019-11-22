@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShoesByLisa",
+            "request": "launch",
+            "mainClass": "ShoesByLisa",
+            "projectName": "FinalProject_5f614aea"
+        }
+    ]
+}
